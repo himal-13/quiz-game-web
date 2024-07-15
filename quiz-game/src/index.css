@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #aaa;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+@media screen and (max-width:800px) {
+  .start-part{
+    width: 90vw;
+  }
+  
+}
